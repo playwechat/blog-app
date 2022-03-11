@@ -61,7 +61,12 @@ const router = new Router({
         {
           path: '/:type/:id',
           component: r => require.ensure([], () => r(require('@/views/blog/BlogCategoryTag')), 'blogcategorytag')
-        }
+        },
+        //图表数据展示
+        {
+          path: '/dataShow',
+          component: r => require.ensure([], () => r(require('@/views/blog/DataShow')), 'datashow')
+        },
       ]
     },
     {

@@ -13,6 +13,9 @@ import '@/assets/theme/index.css'
 import '@/assets/icon/iconfont.css'
 
 import {formatTime} from "./utils/time";
+import * as echarts from 'echarts';
+
+Vue.prototype.$echarts = echarts
 
 
 Vue.config.productionTip = false

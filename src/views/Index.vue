@@ -96,8 +96,7 @@
             that.$message({type: 'error', message: '文章归档加载失败!', showClose: true})
           }
         })
-      }
-
+      },
     },
     components: {
       'card-me': CardMe,
