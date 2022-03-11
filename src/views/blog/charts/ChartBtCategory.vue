@@ -1,5 +1,7 @@
 <template>
-  <div ref="chartBtCategory" style="width:400px;height:400px"></div>
+  <div  style="width:600px ;height:600px">
+    <div ref="chartBtCategory" style="width:100%;height:100%"></div>
+  </div>
 </template>
 
 <script>
@@ -31,6 +33,7 @@
           },
           series: [
             {
+
               name: 'Nightingale Chart',
               type: 'pie',
               radius: [50, 250],

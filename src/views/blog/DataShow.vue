@@ -1,6 +1,6 @@
 <template>
-  <el-card class="box-card">
-    <ChartBtCategory></ChartBtCategory>
+  <el-card class="box-card" style="width:600px ;height:600px">
+    <ChartBtCategory ></ChartBtCategory>
   </el-card>
 </template>
 
